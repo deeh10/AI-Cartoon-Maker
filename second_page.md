@@ -7,7 +7,7 @@
         body, html {
             margin: 0;
             padding: 0;
-            font-family: 'Segoe UI', Arial, sans-serif; /* Enhanced font family */
+            font-family: 'Segoe UI', Arial, sans-serif; /* General text font family */
             color: #333;
             background: #fafafa; /* Light background to reduce glare */
         }
@@ -29,6 +29,10 @@
             box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Soft shadow for depth */
             margin: 20px 0; /* Added spacing */
         }
+        h1, h2, .coming-soon p {
+            font-family: 'Comic Sans MS', 'Arial', sans-serif; /* Playful font for titles */
+            color: #007bff; /* Thematic color for headers */
+        }
         footer {
             background-color: #f4f4f4;
             text-align: center;
@@ -38,7 +42,6 @@
         /* New section for upcoming features */
         .coming-soon {
             font-size: 1.2em; /* Larger font size for emphasis */
-            color: #007bff; /* Thematic color for this section */
         }
     </style>
 </head>
