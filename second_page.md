@@ -7,42 +7,34 @@
         body, html {
             margin: 0;
             padding: 0;
-            font-family: 'Segoe UI', Arial, sans-serif; /* Enhanced font family for a modern look */
+            font-family: 'Segoe UI', Arial, sans-serif; /* Enhanced font family for consistency */
             color: #333;
-            background: #fafafa; /* Consistent background color for reduced glare */
+            background: #fafafa; /* Light background for a cohesive look */
         }
         .gallery {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
             gap: 20px;
             padding: 20px;
-            background-color: #ffffff; /* Light background for the gallery for contrast */
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Soft shadow for depth, similar to title-section */
         }
         .gallery img {
             width: 100%;
             height: auto;
-            border-radius: 10px; /* Rounded corners for images */
-            object-fit: cover; /* Ensure images cover the space nicely */
-            transition: transform 0.3s ease; /* Smooth transition for hover effect */
+            border-radius: 10px;
+            object-fit: cover; /* Ensure images cover the area nicely */
         }
-        .gallery img:hover {
-            transform: scale(1.05); /* Slight scale up on hover for an interactive feel */
-            cursor: pointer;
-        }
-        .intro-text {
+        .intro-text, .coming-soon {
             text-align: center;
             padding: 20px;
-            font-family: 'Comic Sans MS', 'Arial', sans-serif; /* Keeping the playful font for headings */
-            background-color: #ffffff; /* Consistent styling with the title-section */
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            background-color: #ffffff; /* Consistent background for text sections */
+            margin: 20px 0; /* Add some margin for spacing */
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Soft shadow for depth */
         }
         footer {
             background-color: #f4f4f4;
             text-align: center;
             padding: 20px 0;
             margin-top: 20px;
-            font-size: 0.9rem; /* Consistent footer styling with previous enhancements */
         }
     </style>
 </head>
@@ -54,11 +46,16 @@
 </div>
 
 <div class="gallery">
-    <!-- Enhanced Image Placeholder -->
+    <!-- Example Image Placeholder -->
     <img src="https://i.imgur.com/XCoTNUA.jpg" alt="AI Generated Art 1">
     <img src="https://i.imgur.com/MDJXrmo.jpg" alt="AI Generated Art 2">
     <img src="https://i.imgur.com/9oFRibR.jpg" alt="AI Generated Art 3">
-    <!-- Continue adding more images as needed -->
+    <!-- Add more images as needed -->
+</div>
+
+<div class="coming-soon">
+    <h2>More Features Coming Soon - Stay Tuned!</h2>
+    <p>Our team is constantly working to bring you new and exciting features. Keep an eye on this space for updates!</p>
 </div>
 
 <footer>
