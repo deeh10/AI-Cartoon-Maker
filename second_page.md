@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -43,9 +42,9 @@
 
 <div class="gallery">
     <!-- Example Image Placeholder -->
-    <img src="(https://i.imgur.com/XCoTNUA.jpg)" alt="AI Generated Art 1">
-    <img src="(https://i.imgur.com/MDJXrmo.jpg)" alt="AI Generated Art 2">
-    <img src="(https://i.imgur.com/9oFRibR.jpg)" alt="AI Generated Art 3">
+    <img src="https://i.imgur.com/XCoTNUA.jpg" alt="AI Generated Art 1">
+    <img src="https://i.imgur.com/MDJXrmo.jpg" alt="AI Generated Art 2">
+    <img src="https://i.imgur.com/9oFRibR.jpg" alt="AI Generated Art 3">
     <!-- Add more images as needed -->
 </div>
 
@@ -56,4 +55,5 @@
 
 </body>
 </html>
+
 
