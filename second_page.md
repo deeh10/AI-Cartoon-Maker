@@ -7,9 +7,9 @@
         body, html {
             margin: 0;
             padding: 0;
-            font-family: 'Segoe UI', Arial, sans-serif; /* Enhanced font family for consistency */
+            font-family: 'Segoe UI', Arial, sans-serif; /* Enhanced font family */
             color: #333;
-            background: #fafafa; /* Light background for a cohesive look */
+            background: #fafafa; /* Light background to reduce glare */
         }
         .gallery {
             display: grid;
@@ -20,21 +20,25 @@
         .gallery img {
             width: 100%;
             height: auto;
-            border-radius: 10px;
-            object-fit: cover; /* Ensure images cover the area nicely */
+            border-radius: 10px; /* Rounded corners for images */
         }
         .intro-text, .coming-soon {
             text-align: center;
             padding: 20px;
-            background-color: #ffffff; /* Consistent background for text sections */
-            margin: 20px 0; /* Add some margin for spacing */
+            background-color: #ffffff; /* Light background for contrast */
             box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Soft shadow for depth */
+            margin: 20px 0; /* Added spacing */
         }
         footer {
             background-color: #f4f4f4;
             text-align: center;
             padding: 20px 0;
             margin-top: 20px;
+        }
+        /* New section for upcoming features */
+        .coming-soon {
+            font-size: 1.2em; /* Larger font size for emphasis */
+            color: #007bff; /* Thematic color for this section */
         }
     </style>
 </head>
@@ -54,8 +58,7 @@
 </div>
 
 <div class="coming-soon">
-    <h2>More Features Coming Soon - Stay Tuned!</h2>
-    <p>Our team is constantly working to bring you new and exciting features. Keep an eye on this space for updates!</p>
+    <p>More features coming soon - stay tuned!</p>
 </div>
 
 <footer>
