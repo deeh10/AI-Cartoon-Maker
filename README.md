@@ -78,6 +78,7 @@
 
 <div class="content" id="get-started">
     <h2>How ToonTales Works</h2>
+    <p>Welcome to ToonTales 🌟, where your memories are transformed into captivating cartoon stories! Perfect for sharing on social media, our AI-powered platform makes it easy to bring your travel, personal milestones, and everyday adventures to life in animated form. Whether it's an unforgettable trip, a graduation ceremony, or just a coffee date, ToonTales turns these moments into engaging visual stories with minimal effort on your part. Dive in and start sharing your stories today! 🚀💖</p>
 </div>
 
 <footer>
