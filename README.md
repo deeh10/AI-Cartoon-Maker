@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,55 +7,62 @@
         body, html {
             margin: 0;
             padding: 0;
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Arial, sans-serif; /* Enhanced font family */
             color: #333;
+            background: #fafafa; /* Light background to reduce glare */
         }
-        /* Adjusted to use video */
         .video-container {
             width: 100%;
-            height: 60vh; /* Adjusted height */
+            height: 60vh;
             overflow: hidden;
             position: relative;
-            background-color: black; /* Fallback color */
+            background-color: black;
         }
         video {
             width: 100%;
             height: 100%;
-            object-fit: cover; /* Cover the container fully */
+            object-fit: cover;
         }
         .title-section {
             text-align: center;
             padding: 20px;
+            background-color: #ffffff; /* Light background for contrast */
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Soft shadow for depth */
         }
         .content {
             padding: 20px;
+            line-height: 1.6; /* Improved readability */
         }
         h1, h2 {
-            text-align: center;
+            font-family: 'Comic Sans MS', 'Arial', sans-serif; /* Example playful font for titles */
+            color: #007bff; /* Thematic color for headers */
         }
         .feature, .epic {
             margin-bottom: 20px;
         }
         .cta-button {
             display: inline-block;
-            background-color: #007bff;
+            background-color: #ff5722; /* Brighter, more engaging button color */
             color: white;
-            padding: 10px 20px;
+            padding: 12px 24px; /* Slightly larger padding for better touch targets */
             text-decoration: none;
-            border-radius: 5px;
-            margin-top: 20px;
+            border-radius: 8px; /* More pronounced rounded corners */
+            transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+        }
+        .cta-button:hover {
+            background-color: #e64a19; /* Darker shade on hover for feedback */
         }
         footer {
             background-color: #f4f4f4;
             text-align: center;
             padding: 20px 0;
             margin-top: 20px;
+            font-size: 0.9rem; /* Slightly smaller font size for footer */
         }
     </style>
 </head>
 <body>
 
-<!-- Video replaces the cover photo -->
 <div class="video-container">
     <video autoplay muted loop>
         <source src="Cover video.mp4" type="video/mp4">
@@ -72,7 +78,6 @@
 
 <div class="content" id="get-started">
     <h2>How ToonTales Works</h2>
-    <!-- Content sections remain unchanged -->
 </div>
 
 <footer>
