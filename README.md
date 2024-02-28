@@ -59,7 +59,7 @@
 <!-- Video replaces the cover photo -->
 <div class="video-container">
     <video autoplay muted loop>
-        <source src="path_to_your_video.mp4" type="video/mp4">
+        <source src="Cover video.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 </div>
